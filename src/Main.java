@@ -19,6 +19,7 @@ public class Main {
         IphoneX.setMemory(512);
 
         SamsungS20.setCameraMpx(12);
+        SamsungS20.setCameraMpx(48);
 
         Store();
         System.out.println(Phone.stock);
