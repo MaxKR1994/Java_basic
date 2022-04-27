@@ -55,7 +55,7 @@ public class Phone {
         this.cameraMpx = cameraMpx;
     }
 
-    public Phone(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory) {
+    public Phone(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory, Integer cameraMpx) {
         this.color = color;
         this.operatingSystem = operatingSystem;
         this.batteryCapacity = batteryCapacity;
@@ -78,6 +78,17 @@ public class Phone {
                 '}';
     }
 
+    public String toString(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory, Integer cameraMpx) {
+        return "Phone{" +
+                "color='" + color + '\'' +
+                ", operatingSystem='" + operatingSystem + '\'' +
+                ", batteryCapacity=" + batteryCapacity +
+                ", screenSize=" + screenSize +
+                ", memory=" + memory +
+                ", cameraMpx=" + cameraMpx +
+                '}';
+    }
+
     public String toString(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory) {
         return "Phone{" +
                 "color='" + color + '\'' +
@@ -88,14 +99,10 @@ public class Phone {
                 '}';
     }
 
-    public String toString(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory, Integer cameraMpx) {
+    public String toString(String color, String operatingSystem) {
         return "Phone{" +
                 "color='" + color + '\'' +
                 ", operatingSystem='" + operatingSystem + '\'' +
-                ", batteryCapacity=" + batteryCapacity +
-                ", screenSize=" + screenSize +
-                ", memory=" + memory +
-                "cameraMpx=" + cameraMpx +
                 '}';
     }
 }
