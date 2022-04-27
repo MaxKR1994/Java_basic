@@ -18,6 +18,8 @@ public class Main {
         IphoneX.setScreenSize(6);
         IphoneX.setMemory(512);
 
+        SamsungS20.setCameraMpx(12);
+
         Store();
         System.out.println(Phone.stock);
         System.out.println(IphoneX.toString());
