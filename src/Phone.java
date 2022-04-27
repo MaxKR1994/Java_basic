@@ -4,7 +4,7 @@ public class Phone {
     private Integer batteryCapacity;
     private Integer screenSize;
     private Integer memory;
-
+    private Integer cameraMpx;
     public static String stock;
 
     public String getColor() {
