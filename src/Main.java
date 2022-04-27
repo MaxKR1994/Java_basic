@@ -10,6 +10,7 @@ public class Main {
         Phone Pixel6 = new Phone("White","android",4500,6,128,48);
         Phone Xiaomi12 = new Phone("Red","android",5000,6,32,48);
         Phone Huawei = new Phone();
+        Phone OPPO = new Phone(2750,256);
         Phone.stock = "In stock:";
 
         IphoneX.setColor("SpaceGrey");
