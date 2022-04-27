@@ -55,7 +55,7 @@ public class Phone {
         this.cameraMpx = cameraMpx;
     }
 
-    public Phone(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory, Integer cameraMpx) {
+    public Phone(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory) {
         this.color = color;
         this.operatingSystem = operatingSystem;
         this.batteryCapacity = batteryCapacity;
