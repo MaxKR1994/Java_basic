@@ -47,6 +47,14 @@ public class Phone {
         this.memory = memory;
     }
 
+    public Integer getCameraMpx() {
+        return cameraMpx;
+    }
+
+    public void setCameraMpx(Integer cameraMpx) {
+        this.cameraMpx = cameraMpx;
+    }
+
     public Phone(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory) {
         this.color = color;
         this.operatingSystem = operatingSystem;
