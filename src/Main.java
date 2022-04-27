@@ -34,5 +34,6 @@ public class Main {
         System.out.println(Huawei.toString());
         System.out.println(SamsungS20.getMemory());
         System.out.println(SamsungS20.getCameraMpx());
+        System.out.println(OPPO);
     }
 }
