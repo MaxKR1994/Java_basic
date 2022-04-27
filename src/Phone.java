@@ -67,6 +67,11 @@ public class Phone {
     public Phone() {
     }
 
+    public Phone(Integer batteryCapacity, Integer memory) {
+        this.batteryCapacity = batteryCapacity;
+        this.memory = memory;
+    }
+
     @Override
     public String toString() {
         return "Phone{" +
